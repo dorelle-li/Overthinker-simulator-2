@@ -1,0 +1,36 @@
+
+p{
+    font-size: 20px;
+    color: black;
+}
+#nice{
+    color:rgb(123, 123, 123);
+    font-size: 15px;
+}
+.good{
+    font-size: 12px;
+}
+.image{
+    width:750px;
+    height:auto;
+}
+.center{
+    text-align: center;
+}
+.center1 {
+    margin: auto;
+    width: 90%;
+    padding: 10px;
+}
+.red{
+    background-color: blueviolet;
+}
+
+div {
+    padding: 70px;
+}
+p.thicker {
+    font-weight: 900;
+  }
+
+

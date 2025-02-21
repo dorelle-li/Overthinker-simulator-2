@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Overthinker Simulator</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        
+    
+        <div class="center">
+        <p class="thicker" style="font-size: 50px;">Overthinker Simulator</p>
+        <p>Welcome to a day in the life of an Overthinker</p>
+        </div>
+
+        <div class="center1">
+        <p id="nice">Play this sound in the back and try not to get distracted!</p>
+    </div>
+
+        <div class="center">
+        <a href="https://www.youtube.com/watch?v=rHFkqvY-nrE"><img src="./img/brain.jpg" class="image"></a> 
+        <p class="good" style="color:crimson;"> Tip: Many overthinkers are more sensitive to sounds because their minds are already busy processing internal thoughts, so external stimuli can feel like extra noise to navigate</p>
+        <p>Great!</p>
+        <p>start by choosing how your day begins</p>
+        </div>
+
+    <!--button for are you sure-->
+    <button onclick="showPopup()">I'm ready</button>
+
+    <div class="overlay" id="overlay"></div>
+    <div class="popup" id="popup" style="display:none;">
+        <p>Are you sure?</p>
+        <button onclick="hidePopup()">Yes</button>
+    </div>
+
+    <script>
+        function showPopup() {
+            document.getElementById('popup').style.display = 'block';
+            document.getElementById('overlay').style.display = 'block';
+        }
+        function hidePopup() {
+            document.getElementById('popup').style.display = 'none';
+            document.getElementById('overlay').style.display = 'none';
+        }
+    </script>
+   <!--end-->
+    <ol style="font-size: 20px;">
+        <li><a href="1hour.html" >wake up 1 hour prior to leaving time.</a></li>
+        <br>
+        <li>You wake up 30 minutes prior to leaving time.</li>
+        <br>
+        <li>You missed your alarm clock and woke up 5 minutes after leaving time.</li>
+    </ol>
+        
+        <!--note written to myself-->
+        
+      
+    </body>
+
+    
+</html>
