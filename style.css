@@ -1,14 +1,21 @@
 
+#index{
+    background-color: rgb(221, 239, 233);
+}
+#go{background-color: rgb(255, 255, 255);
+}
+
 p{
     font-size: 20px;
     color: black;
+
 }
 #nice{
     color:rgb(123, 123, 123);
     font-size: 15px;
 }
 .good{
-    font-size: 12px;
+    font-size: 15px;
 }
 .image{
     width:750px;
@@ -25,6 +32,10 @@ p{
 .red{
     background-color: blueviolet;
 }
+.thought{
+    color: rgb(172, 172, 172);
+    font-size: 13px;
+}
 
 div {
     padding: 70px;
@@ -34,3 +45,25 @@ p.thicker {
   }
 
 
+.wholepage{
+    position:relative;
+    height: auto;
+}
+.q1{
+    position: absolute;
+    right: 40px;
+}
+.q2{
+    position: absolute;
+    top: 450px;
+    left: 15px
+}
+.q3{
+    position: absolute;
+
+    top: 600px;
+    right:70px
+}
+
+ 
+  

@@ -4,26 +4,29 @@
         <title>Overthinker Simulator</title>
         <link rel="stylesheet" href="style.css">
     </head>
-    <body>
+    <body id="index">
         
+    
         <div class="center">
-        <p class="thicker" style="font-size: 50px;">Overthinker Simulator</p>
-        <p>Welcome to a day in the life of an Overthinker</p>
+        <p class="thicker" style="font-size: 60px;">Am I An Overthinker?</p>
+    <br><br>
+        <p>If You Overthink Too Much, This Quiz Will Tell You.</p>
+        <p style="font-size: 15 px;">Discover more on your personality and how you think!</p>
         </div>
 
         <div class="center1">
-        <p id="nice">Play this sound in the back and try not to get distracted!</p>
     </div>
 
         <div class="center">
-        <a href="https://www.youtube.com/watch?v=rHFkqvY-nrE"><img src="./img/brain.jpg" class="image"></a> 
-        <p class="good" style="color:crimson;"> Tip: Many overthinkers are more sensitive to sounds because their minds are already busy processing internal thoughts, so external stimuli can feel like extra noise to navigate</p>
-        <p>Great!</p>
-        <p>start by choosing how your day begins</p>
+        <!--<a href="https://www.youtube.com/watch?v=rHFkqvY-nrE">--><img src="./img/brainnew.jpg" class="image"></a> 
+        <!--<p class="good" style="color:crimson;"> Tip: Many overthinkers are more sensitive to sounds because their minds are already busy processing internal thoughts, so external stimuli can feel like extra noise to navigate</p>-->
+        <br><br>
+        <p>Great let's begin !</p>
         </div>
 
     <!--button for are you sure-->
-    <button onclick="showPopup()">I'm ready</button>
+    <div class="center">
+    <button onclick="showPopup()">START</button>
 
     <div class="overlay" id="overlay"></div>
     <div class="popup" id="popup" style="display:none;">
@@ -37,18 +40,13 @@
             document.getElementById('overlay').style.display = 'block';
         }
         function hidePopup() {
-            document.getElementById('popup').style.display = 'none';
-            document.getElementById('overlay').style.display = 'none';
-        }
+                // Redirect to GO.html after clicking "Yes"
+                window.location.href = "GO.html";
+            }
     </script>
+    </div>
    <!--end-->
-    <ol style="font-size: 20px;">
-        <li><a href="1hour.html" >wake up 1 hour prior to leaving time.</a></li>
-        <br>
-        <li>You wake up 30 minutes prior to leaving time.</li>
-        <br>
-        <li>You missed your alarm clock and woke up 5 minutes after leaving time.</li>
-    </ol>
+  <!-- <a href="GO.html">GO</a>-->
         
         <!--note written to myself-->
         
